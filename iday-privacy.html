@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="주식회사 케이지네트워크의 iDay Android 개인정보처리방침과 계정 삭제 요청 안내">
+  <title>iDay 개인정보처리방침 · KZNetwork Inc.</title>
+  <style>
+    :root { color-scheme: light; }
+    body { margin: 0; padding: 32px 18px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.8; color: #243044; background: #f5f7fb; overflow-wrap: anywhere; }
+    main { max-width: 800px; margin: auto; padding: clamp(20px, 4vw, 40px); background: white; border: 1px solid #dce3ee; border-radius: 12px; }
+    h1 { font-size: 28px; line-height: 1.4; }
+    h2 { margin-top: 32px; font-size: 20px; }
+    a { color: #174ea6; }
+    .meta { color: #526175; }
+    .notice { padding: 16px; background: #edf4ff; border-left: 4px solid #174ea6; }
+    li { margin: 8px 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>iDay 개인정보처리방침</h1>
+    <p class="meta">주식회사 케이지네트워크 · KZNetwork Inc.<br>적용 대상: iDay Android (com.kz4network.iday)<br>시행일: 2026년 10월 27일</p>
+    <p>주식회사 케이지네트워크(이하 “회사”)는 iDay의 회원 인증, 루틴 관리, 알람 및 구독 기능을 제공하기 위해 다음과 같이 정보를 처리합니다.</p>
+    <p><a href="#delete-account">계정 및 개인정보 삭제 요청 안내로 이동</a></p>
+
+    <h2>1. 처리하는 정보와 이용 목적</h2>
+    <ul>
+      <li><strong>회원가입과 인증:</strong> 이메일 주소, 비밀번호, 이름(표시 이름), 사용자 식별정보 및 인증 상태를 회원가입·로그인·계정 관리에 사용합니다. 이메일과 비밀번호 인증은 Firebase Authentication을 통해 처리합니다.</li>
+      <li><strong>루틴과 체크 기록:</strong> 사용자가 입력한 루틴, 반복 일정, 체크 기록, 알람 및 앱 설정을 루틴 표시·통계·알람 제공에 사용합니다. 루틴과 체크 기록은 기기의 WebView 로컬 저장소(IndexedDB)에 저장됩니다.</li>
+      <li><strong>로그인 편의와 기기 설정:</strong> 마지막 로그인 이메일, 자동 로그인 선택, 알람 설정 및 구독 상태 일부를 기기 로컬 저장소와 앱 설정 저장소에 저장합니다.</li>
+      <li><strong>구독:</strong> Google Play에서 제공하는 상품·구매 상태, 구매 시각, 구매 토큰 등 구매 관련 정보를 구독 확인·구매 확인 처리·권한 제공에 사용합니다. 카드번호 등 결제 수단 정보는 Google Play가 처리하며 회사가 앱에서 직접 입력받지 않습니다.</li>
+      <li><strong>문의 및 삭제 요청:</strong> 이메일 주소와 이용자가 보낸 문의 내용, 본인 확인 및 처리 결과를 문의 응대·권리 요청 처리에 사용합니다. 비밀번호, 카드번호, 신분증 등 불필요한 민감정보를 이메일로 보내지 마세요.</li>
+      <li><strong>서비스 연결:</strong> 인증·결제·정책 웹페이지 제공 과정에서 서비스 제공자가 IP 주소, 접속 시각, 브라우저·기기 정보 등 기술 정보를 처리할 수 있습니다.</li>
+    </ul>
+
+    <h2>2. 로컬 저장 및 백업</h2>
+    <p>현재 iDay는 루틴·체크 기록을 회사의 Firestore 서버에 동기화하거나 다른 기기로 복원하는 기능을 제공하지 않습니다. 로그인만으로 기기 내 기록이 서버에 백업되는 것은 아닙니다.</p>
+    <p>기기의 앱 데이터 초기화, 앱 삭제 또는 기기 변경으로 로컬 기록을 잃을 수 있습니다. Android 시스템의 백업·기기 이전 기능은 기기와 계정 설정 및 운영체제 동작에 따르며, iDay 자체 동기화와는 다릅니다.</p>
+
+    <h2>3. 외부 서비스와 정보 처리</h2>
+    <ul>
+      <li><strong>Google Firebase Authentication:</strong> 회원 인증과 계정 관리에 사용합니다. <a href="https://firebase.google.com/support/privacy">Firebase 개인정보 및 보안 안내</a></li>
+      <li><strong>Google Play:</strong> 결제, 구독 관리 및 구매 확인에 사용합니다. <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a></li>
+      <li><strong>GitHub Pages:</strong> 이 정책 웹페이지를 제공합니다. 방문 시 GitHub가 연결·접속 관련 정보를 처리할 수 있습니다. <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보처리방침</a></li>
+      <li><strong>네이버 메일:</strong> 이용자가 문의 이메일을 보내면 메일 서비스에서 발신 주소·본문 등 메일 정보를 처리합니다. <a href="https://policy.naver.com/policy/privacy.html">네이버 개인정보처리방침</a></li>
+    </ul>
+    <p>외부 서비스는 서비스 제공에 필요한 정보를 해당 서비스의 운영 인프라에서 처리하며, 그 과정에 국외 처리가 포함될 수 있습니다. 관련 처리·보관 조건은 각 서비스의 안내를 확인할 수 있습니다. 회사는 인증·결제·문의 처리 목적을 벗어난 이용이나 개인정보 판매를 운영 목적으로 두지 않습니다.</p>
+
+    <h2>4. 광고 및 행동 분석</h2>
+    <p>회사는 iDay의 운영 기준으로 맞춤형 광고 및 별도 사용자 행동 분석을 위한 정보 수집을 사용하지 않습니다. 회원 인증, 결제, 문의 응대 및 외부 서비스 제공에 필요한 기술 정보 처리는 위 항목에 따릅니다. 새로운 수집·이용이 필요한 기능을 도입하면 방침과 필요한 동의 절차에 먼저 반영합니다.</p>
+
+    <h2>5. 보유 기간과 파기</h2>
+    <ul>
+      <li><strong>회원 인증 정보:</strong> 회원 계정 유지 기간 동안 처리하며, 탈퇴 또는 확인된 삭제 요청에 따라 삭제 절차를 진행합니다.</li>
+      <li><strong>기기 내 기록과 설정:</strong> 이용자가 해당 기록 또는 앱 데이터를 삭제할 때까지 기기에 보관됩니다. 서버 계정 삭제만으로 기기에 남은 기록이 모두 지워지는 것은 아닙니다.</li>
+      <li><strong>회사에서 보관하는 문의·삭제 요청 기록:</strong> 처리 완료 후 90일 동안 재문의·처리 확인 목적으로 보관한 뒤 삭제합니다. 요청 내용은 필요한 최소 범위로 보관합니다.</li>
+      <li><strong>구매 관련 정보:</strong> 앱은 구독 제공에 필요한 상태를 처리하며 Google Play의 구매 기록은 Google의 정책과 이용자 계정 설정에 따릅니다. 계정 삭제가 Google Play의 거래 기록 삭제를 의미하지는 않습니다.</li>
+      <li>법령에 따라 보존해야 하는 정보가 있는 경우 해당 항목·근거·기간을 이용자에게 안내하고 필요한 범위만 별도로 보관합니다.</li>
+    </ul>
+    <p>회사에서 삭제하는 전자 기록은 관리 중인 저장소와 메일에서 삭제하며, 외부 서비스에서 처리하는 정보는 해당 서비스의 삭제 절차에 따릅니다.</p>
+
+    <h2 id="delete-account">6. 계정 및 개인정보 삭제 요청</h2>
+    <div class="notice">
+      <p><strong>앱에 접근하지 못해도 이메일로 삭제를 요청할 수 있습니다.</strong></p>
+      <ol>
+        <li>가입한 이메일에서 <a href="mailto:kz4network@naver.com?subject=iDay%20account%20deletion">kz4network@naver.com</a>으로 제목 “iDay 계정 삭제 요청” 메일을 보냅니다.</li>
+        <li>본문에 iDay 가입 이메일과 “계정 및 관련 개인정보 삭제 요청”이라고 기재합니다. 비밀번호는 보내지 마세요.</li>
+        <li>회사는 필요한 최소한의 본인 확인 후 계정 및 회사가 관리하는 관련 개인정보의 삭제를 처리하고 결과를 회신합니다. 추가 확인 또는 법적 보존이 필요한 경우 사유와 범위를 안내합니다.</li>
+      </ol>
+    </div>
+    <p>앱 안의 회원 탈퇴 화면에서도 계정 삭제를 요청할 수 있습니다. 기기에 남아 있는 루틴·체크·설정은 기기의 앱 정보에서 iDay의 저장공간 데이터를 삭제해 제거할 수 있습니다. 이 작업은 되돌릴 수 없으며 로컬 기록을 잃게 됩니다.</p>
+    <p><strong>계정 삭제와 구독 해지는 별개입니다.</strong> 정기 결제가 있다면 Google Play의 결제 및 정기 결제 → 정기 결제에서 iDay 구독을 별도로 관리·해지하세요. 계정 삭제나 앱 삭제만으로 구독이 자동 해지된다고 가정하지 마세요.</p>
+
+    <h2>7. 이용자 권리와 보호</h2>
+    <p>개인정보 열람·정정·삭제·처리 정지 등 요청은 아래 문의처로 접수할 수 있습니다. 회사는 본인 확인에 필요한 최소한의 정보만 요청하고, 요청 처리에 제한이 있으면 그 이유를 안내합니다. 회사는 인증·결제에 공식 서비스 SDK를 사용하고 운영 정보에 대한 접근을 업무상 필요한 범위로 제한합니다.</p>
+
+    <h2>8. 문의처 및 변경 안내</h2>
+    <p>운영 주체: 주식회사 케이지네트워크 / KZNetwork Inc.<br>개인정보 문의·권리 요청 창구: iDay 운영 담당<br>이메일: <a href="mailto:kz4network@naver.com">kz4network@naver.com</a></p>
+    <p>이 방침의 변경사항은 이 페이지에 게시하며, 새로운 개인정보 수집 등 추가 안내나 동의가 필요한 변경은 해당 절차를 거쳐 적용합니다.</p>
+    <p class="meta">This policy applies to iDay Android, operated by KZNetwork Inc. For privacy questions or account deletion, email kz4network@naver.com from your registered email address. Do not send your password. Account deletion does not automatically cancel a Google Play subscription.</p>
+  </main>
+</body>
+</html>
